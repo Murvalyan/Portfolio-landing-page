@@ -98,3 +98,29 @@ body {
 	color: #070707;
 	font-weight: bold;
 }
+
+.about-me {
+	background: #F6F6F6;
+}
+.about-me__content {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 120px 0 105px 0;
+}
+.about-me__title {
+	margin: 0 0 20px 0;
+}
+.about-me__info {
+	max-width: 500px;
+	margin: 10px 0;
+	text-align: center;
+	line-height: 22px;
+}
+
+.title {
+	font-size: 34px;
+	font-weight: bold;
+	color: #070707;
+}
