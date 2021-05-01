@@ -247,3 +247,48 @@ body {
 		margin: 0 0 45px 0;
 	}
 }
+//contacts
+.contacts {
+	background: $color-white;
+	padding: 120px 0;
+	&__content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__title {
+		margin: 0 0 20px 0;
+	}
+	&__subtitle {
+		max-width: 250px;
+		margin: 0 0 20px 0;
+		text-align: center;
+	}
+	&__send {
+		width: 180px;
+		height: 42px;
+		background: $color-black;
+		border-radius: 50px;
+		display: flex;
+		justify-content: center;
+		align-items:center;
+		color: $color-white;
+		margin: 0 0 50px 0;
+	}
+	&__icon {
+		width: 450px;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		margin: 0 0 45px 0;
+	}
+	&__text {
+		text-align: center;
+		line-height: 22px;
+		font-size: 14px;
+		color: $color-grey;
+		& a {
+			color: inherit;
+		}
+	}
+}
