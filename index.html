@@ -12,11 +12,11 @@
 		<div class="container">
 			<nav class="header__navigation nav">
 				<ul class="nav__list">
-					<li class="nav__item"><a href="">Home</a></li>
-					<li class="nav__item"><a href="">About me</a></li>
-					<li class="nav__item"><a href="">Skills</a></li>
-					<li class="nav__item"><a href="">Portfolio</a></li>
-					<li class="nav__item"><a href="">Contacts</a></li>
+					<li class="nav__item"><a class="nav__link activ" href="#">Home</a></li>
+					<li class="nav__item"><a class="nav__link" href="#">About me</a></li>
+					<li class="nav__item"><a class="nav__link" href="#">Skills</a></li>
+					<li class="nav__item"><a class="nav__link" href="#">Portfolio</a></li>
+					<li class="nav__item"><a class="nav__link" href="#">Contacts</a></li>
 				</ul>
 			</nav>
 			<section class="header__main-content header-content">
@@ -25,16 +25,10 @@
 					<p class="heading__infomation">
 						UX | UI designer 24 years old, Minsk
 					</p>
-					<div class="heading__swith swith">
-						<div class="swith__ru ru/en">
-							<input type="radio" value="RU" name="ru" class="swith__input ru"/>
-							<label for="" class="swith__label">RU </label>
-						</div>
-						<div class="swith__eng ru/en">
-							<input type="radio"  value="ENG" name="eng" class="swith__input eng"/>
-							<label for="" class="swith__label">| ENG</label>
-						</div>
-					</div>
+					<ul class="heading__swith swith">
+						<li class="swith__item"><a href="" class="swith__link">RU</a></li>
+						<li class="swith__item"><a href="" class="swith__link activ">ENG</a></li>
+					</ul>
 				</div>
 				<img src="img/header_img.jpg" alt="Me" class="header-content__main-img"/>
 			</section>
