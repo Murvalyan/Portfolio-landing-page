@@ -34,7 +34,7 @@ body {
 		padding: 32px 0;
 		margin:0;
 		position: relative;
-		&:after	 {
+		&::after	 {
 			content: "";
 			display: block;
 			width: 100%;
@@ -48,6 +48,7 @@ body {
 		color: $color-grey;
 		&:hover:not(first-child){
 			color: $color-black;
+			transition: 0.2s;
 		}
 	}
 }
@@ -88,7 +89,7 @@ body {
 }
 .swith {
 	position: relative;
-	&:after {
+	&::after {
 			content: "";
 			display: block;
 			width: 2px;
@@ -107,6 +108,7 @@ body {
 		color: $color-grey;
 		&:hover:not(first-child){
 			color: $color-black;
+			transition: 0.2s;
 		}
 	}
 }
@@ -212,5 +214,36 @@ body {
 		&:checked ~ &:hover {
 			color: $color-black;
 		}
+	}
+}
+//portfolio
+.portfolio {
+	background: $color-section;
+	&__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 110px 0 95px 0;
+	}
+	&__img {
+		max-width: 100%;
+		height: auto;
+	}
+	&__subtitle  {
+		margin: 45px 0;
+		display: flex;
+		justify-content: center;
+		& a {
+			color: $color-black;
+			text-decoration: underline;
+			&:hover {
+				color: $color-grey;
+				transition: 0.2s;
+			}
+		}
+	}
+	&__title {
+		margin: 0 0 45px 0;
 	}
 }
